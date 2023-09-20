@@ -26,41 +26,35 @@ Quando crei una Pull Request, ti preghiamo di seguire queste linee guida:
 - Esegui un controllo incrociato (code review) per ricevere feedback e migliorare il tuo codice.
 - Attendi la revisione del tuo codice da parte dei collaboratori del progetto.
 
-## Codice di Condotta
+##  Flusso di lavoro dello sviluppatore.
+- Sviluppe e apporta le modifiche in locale sul tuo IDE, testando tutte le modifiche, aggiungi tutti i comnmenti che credi siano utili. 
+- Crea un Branch chiamato con l'ID della Issue (esempio: Issue_#120)
+- Fai una pull request del branch
+- Aggiorna CHANGELOG.md con un nuovo numero di versione se questa modifica apporta particolari modifiche al codice
+- Dove ti é possibile aggiungi sempre commenti, sia nelle fasi di caricamente del codice, sia nel codice stesso
 
+##  Titolo del commit:
+- Doc: quando si modifica il file .md doc: descrizione
+- Fix: quando modifichiamo una correzione di Fix: descrizione
+- Feat: quando aggiungiamo qualsiasi funzionalità feat: descrizione
+- Core: quando modifichiamo qualsiasi libreria ecc... core: descrizione
+- Refactor: quando creiamo un refactor di codice/file refactor: descrizione
+- VX.X.X: quando tagghiamo qualsiasi versione v0.0.0 
+- descrizione: è la descrizione del commit in minuscolo
+
+##  Esempio:
+- Doc: doc: aggiornamento del file CONTRIBUTING.md e registro delle modifiche
+- Fix: Fix: aggiorna la scheda prodotto mobile
+- Feat: feat: aggiungi la logica del carrello Ajax
+- Core: core: aggiungi jquery
+- Refactoring: refactoring: modifica sezione3.css
+- VX.X.X: v0.0.12
+
+## Codice di Condotta
 Tutti i contributori sono tenuti a seguire il nostro Codice di Condotta. Forniamo un ambiente aperto, inclusivo e rispettoso per tutti i partecipanti.
 
 ## Contatti
-
 Se hai domande o hai bisogno di assistenza, non esitare a contattare apacommunity05@gmail.com.
 
 Grazie ancora per il tuo interesse a contribuire a Gestione Ristorante e Pizzeria! Speriamo di collaborare presto con te.
-
-##  Flusso di lavoro dello sviluppatore.
-- Il flusso di lavoro più semplice per aggiungere una funzionalità/correggere un bug è testarlo.
-    Sviluppo Apporta le modifiche al tuo locale, testando i cambiamenti nell'ambiente locale. 
-    Crea un ramo dallo sviluppatore chiamato con l'ID della storia (TODO-XXX) 
-    Aggiorna CHANGELOG.md con un nuovo numero di versione e una descrizione della modifica che stai apportando (per questo quiz è facoltativo). 
-
-##  Crea PR con ID storia (TODO-XXX). 
-- Commit: 
-    Tutti i commit hanno due parti, titolo e descrizione.
-
-
-##  Titolo:
-- Doc: quando si modifica il file .md doc: descrizione
-    Correzione: quando modifichiamo una correzione di funzionalità: descrizione
-    Feat: quando aggiungiamo qualsiasi funzionalità feat:
-    Core: quando modifichiamo qualsiasi libreria ecc... core: descrizione
-    Refactor: quando creiamo un refactor di codice/file refactor: descrizione
-    VX.X.X: quando tagghiamo qualsiasi versione v0.0.0 
-    Descrizione: è la descrizione del commit in minuscolo
-
-##  Esempio:
-- Doc: doc: aggiornamento dei contributi e registro delle modifiche
-    Correzione: correzione: aggiorna la scheda prodotto mobile
-    Feat: feat: aggiungi la logica del carrello Ajax
-    Core: core: aggiungi jquery
-    Refactoring: refactoring: modifica sezione3.css
-    VX.X.X: v0.0.12
 ---
