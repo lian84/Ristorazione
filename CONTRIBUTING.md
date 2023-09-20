@@ -35,4 +35,6 @@ Tutti i contributori sono tenuti a seguire il nostro Codice di Condotta. Forniam
 Se hai domande o hai bisogno di assistenza, non esitare a contattare apacommunity05@gmail.com.
 
 Grazie ancora per il tuo interesse a contribuire a Gestione Ristorante e Pizzeria! Speriamo di collaborare presto con te.
+
+.
 ---
