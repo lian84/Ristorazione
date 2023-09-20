@@ -43,6 +43,7 @@ Quando crei una Pull Request, ti preghiamo di seguire queste linee guida:
 - descrizione: è la descrizione del commit in minuscolo
 
 ##  Esempio:
+
 - Doc: doc: aggiornamento del file CONTRIBUTING.md e registro delle modifiche
 - Fix: Fix: aggiorna la scheda prodotto mobile
 - Feat: feat: aggiungi la logica del carrello Ajax
